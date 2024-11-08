@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la pantalla */
+    margin: 0; /* Elimina el margen por defecto del body */
+}
+#carouselExample {
+    width: 80%; /* Ajusta el ancho al 80% del contenedor padre */
+    max-width: 1000px; /* Define un ancho máximo */
+    height: 600px; /* Ajusta la altura del carrusel */
+    margin: 0 auto; /* Centra el carrusel */
+}
+
+.carousel-item img {
+    width: 920px;
+    height: 520px;;
+}
