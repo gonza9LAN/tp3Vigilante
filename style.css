@@ -1,18 +1,63 @@
-body {
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la pantalla */
-    margin: 0; /* Elimina el margen por defecto del body */
+.container-fluid {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: black !important;
+    color:  white;
 }
+
 #carouselExample {
-    width: 80%; /* Ajusta el ancho al 80% del contenedor padre */
-    max-width: 1000px; /* Define un ancho máximo */
-    height: 600px; /* Ajusta la altura del carrusel */
-    margin: 0 auto; /* Centra el carrusel */
+    width: 80%;
+    max-width: 1000px;
+    height: 500px;
+    margin: 0 auto;
 }
 
 .carousel-item img {
-    width: 920px;
-    height: 520px;;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.titulo h1 {
+    font-size: 30px;
+    color: goldenrod;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.menu li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    text-align: center;
+}
+.optionmenu a:hover {
+    color: goldenrod;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgb(190, 190, 190);
+    border-radius: 50%;
+}
+.subtitulo{
+    font-size: 10px;
+    color: white;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 5px;
 }
