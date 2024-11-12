@@ -61,3 +61,37 @@
     text-align: center;
     padding: 5px;
 }
+
+
+.img-rectangulo {
+    width: 60%;
+    height: 200px;
+    display: block;
+    margin-bottom: 20px; 
+    border-radius: 10px; 
+}
+
+.bg-img-1 {
+    background-image: url('1934.png');
+}
+
+.bg-img-2 {
+    background-image: url('1938.png');
+}
+
+.bg-img-3 {
+    background-image: url('1950.png');
+}
+
+.bg-img-4 {
+    background-image: url('1954.png');
+}
+.bg-img-5 {
+    background-image: url('1958.png');
+}
+.bg-img-6 {
+    background-image: url('1962.png');
+}
+.bg-img-7 {
+    background-image: url('1966.png');
+}
