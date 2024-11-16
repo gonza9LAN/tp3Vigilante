@@ -2,23 +2,21 @@ body {
     background-color: black !important;
     text-justify: auto;
     color: white;
-    padding-top: 10px;
-    padding-bottom: 40px;
+    margin: 0;
+    padding: 0;
 }
 .pagina{
-    padding-top: 10px;
+    padding-top: 20px;
 }
 #carouselExample {
     width: 90%;
-    border: 20px;
-    border-color:  goldenrod;
-    max-width: 900px;
+    max-height: 500px;
     height: 500px;
     margin: 0 auto;
 }
 .carousel-item img {
-    width: 900px;
-    height: 500px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -28,7 +26,7 @@ body {
     border-radius: 50%;
 }
 .titulo h1 {
-    font-size: 30px;
+    font-size: 2rem;
     color: goldenrod;
     margin-bottom: 20px;
     text-align: center;
@@ -36,63 +34,38 @@ body {
 }
 .navbar {
     background-color: black;
-    font-size: 20px;
+    font-size: 18px;
 }
 .navbar a {
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
+    margin: 0 10px;
 }
 .navbar a:hover {
     color: goldenrod;
-<<<<<<< HEAD
 }
 .carousel-control-prev-icon,
-.carousel-control-next-icon {
+.carousel-control-next-icon 
+{
     background-color: rgb(190, 190, 190);
     border-radius: 50%;
 }
-.subtitulo{
-    font-size: 10px;
-    color: white;
-    margin-bottom: 5px;
+.PosterMundial {
+    flex: 0 0 auto;
     text-align: center;
-    padding: 5px;
-}
-
-
-.img-rectangulo {
-    width: 60%;
-    height: 200px;
-    display: block;
     margin-bottom: 20px; 
     border-radius: 10px; 
 }
-
-.bg-img-1 {
-    background-image: url('1934.png');
+.PosterMundial img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, filter 0.3s ease;
 }
-
-.bg-img-2 {
-    background-image: url('1938.png');
-}
-
-.bg-img-3 {
-    background-image: url('1950.png');
-}
-
-.bg-img-4 {
-    background-image: url('1954.png');
-}
-.bg-img-5 {
-    background-image: url('1958.png');
-}
-.bg-img-6 {
-    background-image: url('1962.png');
-}
-.bg-img-7 {
-    background-image: url('1966.png');
-=======
->>>>>>> 99837186e6be8cf117b07ea20988f910c8ae5bee
+.PosterMundial img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
 }
