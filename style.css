@@ -7,12 +7,12 @@ body {
 }
 #carouselExample {
     width: 80%;
-    max-height: 400px;
-    height: 350px;
+    max-height: 80%;
+    height: 80%;
     margin: 0 auto;
 }
 .carousel-item img {
-    width: 100%;
+    width: 50%;
     height: auto;
     object-fit: cover;
     border-radius: 10px;
@@ -65,11 +65,14 @@ body {
 }
 p{
     text-align: justify;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 20px;
+    padding: 20px;
 }
 .subtitulo h2 {
+    margin-top: 20px;
     font-size: 2rem;
     color: goldenrod;
-    margin-bottom: 20px;
     text-align: center;
-    padding: 20px;
 }
