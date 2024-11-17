@@ -5,13 +5,10 @@ body {
     margin: 0;
     padding: 0;
 }
-.pagina{
-    padding-top: 20px;
-}
 #carouselExample {
-    width: 90%;
-    max-height: 500px;
-    height: 500px;
+    width: 80%;
+    max-height: 400px;
+    height: 350px;
     margin: 0 auto;
 }
 .carousel-item img {
@@ -46,12 +43,6 @@ body {
 .navbar a:hover {
     color: goldenrod;
 }
-.carousel-control-prev-icon,
-.carousel-control-next-icon 
-{
-    background-color: rgb(190, 190, 190);
-    border-radius: 50%;
-}
 .PosterMundial {
     flex: 0 0 auto;
     text-align: center;
@@ -68,4 +59,17 @@ body {
 .PosterMundial img:hover {
     transform: scale(1.1);
     filter: brightness(1.2);
+}
+.Mundiales{
+    padding: 20px;
+}
+p{
+    text-align: justify;
+}
+.subtitulo h2 {
+    font-size: 2rem;
+    color: goldenrod;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
 }
