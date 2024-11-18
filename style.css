@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: black !important;
     text-justify: auto;
@@ -5,50 +11,67 @@ body {
     margin: 0;
     padding: 0;
 }
+
 #carouselExample {
     width: 80%;
     max-height: 80%;
-    height: 80%;
-    margin: 0 auto;
+    height: auto;
+    display: block;
+    margin: 20px auto 0 auto;
 }
+
 .carousel-item img {
     width: 50%;
     height: auto;
     object-fit: cover;
     border-radius: 10px;
 }
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-color: rgb(190, 190, 190);
     border-radius: 50%;
 }
-.titulo h1 {
-    font-size: 2rem;
-    color: goldenrod;
-    margin-bottom: 20px;
-    text-align: center;
-    padding: 20px;
+
+.carrousel {
+    margin: 10px 0;
+    padding: 0;
 }
+
+.titulo {
+    margin: 10px 0;
+    padding: 0;
+}
+
+.titulo h1 {
+    font-size: 32px;
+    color: goldenrod;
+    text-align: center;
+}
+
 .navbar {
     background-color: black;
     font-size: 18px;
 }
+
 .navbar a {
     color: white;
     text-align: center;
     text-decoration: none;
     font-size: 18px;
-    margin: 0 10px;
 }
+
 .navbar a:hover {
     color: goldenrod;
 }
+
 .PosterMundial {
     flex: 0 0 auto;
     text-align: center;
-    margin-bottom: 20px; 
-    border-radius: 10px; 
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
+
 .PosterMundial img {
     width: 100%;
     height: auto;
@@ -56,23 +79,66 @@ body {
     border-radius: 10px;
     transition: transform 0.3s ease, filter 0.3s ease;
 }
+
 .PosterMundial img:hover {
     transform: scale(1.1);
     filter: brightness(1.2);
 }
-.Mundiales{
+
+.Mundiales {
     padding: 20px;
 }
-p{
+
+p {
     text-align: justify;
     font-size: 1rem;
     color: white;
-    margin-bottom: 20px;
-    padding: 20px;
 }
+
 .subtitulo h2 {
     margin-top: 20px;
-    font-size: 2rem;
+    font-size: 32px;
     color: goldenrod;
     text-align: center;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.options label {
+    margin-top: 0;
+}
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.options {
+    margin-top: 10px;
+}
+
+button {
+    width: 100%;
+    background-color: goldenrod;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+button:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
 }
