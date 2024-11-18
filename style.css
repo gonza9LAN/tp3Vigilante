@@ -142,3 +142,23 @@ button:hover {
     transform: scale(1.1);
     filter: brightness(1.2);
 }
+
+.GoleadoresMundiales {
+    flex: 0 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.GoleadoresMundiales img {
+    width: auto;
+    height: 100%;
+    max-width: 150px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.GoleadoresMundiales img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
