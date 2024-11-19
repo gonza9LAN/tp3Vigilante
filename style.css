@@ -71,7 +71,6 @@ body {
     margin-bottom: 20px;
     border-radius: 10px;
 }
-
 .PosterMundial img {
     width: 100%;
     height: auto;
@@ -149,7 +148,6 @@ button:hover {
     margin-bottom: 20px;
     border-radius: 10px;
 }
-
 .GoleadoresMundiales img {
     width: auto;
     height: 100%;
@@ -159,6 +157,30 @@ button:hover {
 }
 
 .GoleadoresMundiales img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+.imagen img{
+    max-width: 50%;
+    border-radius: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.MascotaMundial {
+    flex: 0 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.MascotaMundial img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.MascotaMundial img:hover {
     transform: scale(1.1);
     filter: brightness(1.2);
 }
